@@ -12,12 +12,13 @@
   }
   
   a {
-    color: #333;
+    color: rgb(192, 107, 156);
     text-decoration: none;
   }
   
   h1, h2, h3 {
     padding-bottom: 20px;
+    color:cadetblue;
   }
   
   p {
@@ -33,7 +34,7 @@
   }
   
   .text-primary {
-    color: #f7c08a;
+    color: #665646;
   }
   
   .lead {
@@ -43,7 +44,7 @@
   .btn {
     display: inline-block;
     font-size: 18px;
-    color: #fff;
+    color: rgb(240, 13, 13);
     background: #333;
     padding: 13px 20px;
     border: none;
@@ -51,32 +52,32 @@
   }
   
   .btn:hover {
-    background: #f7c08a;
-    color: #333;
+    background: #ec7804;
+    color: rgb(236, 199, 199);
   }
   
   .btn-light {
     background: #f4f4f4;
-    color: #333;
+    color: rgb(236, 16, 16);
   }
   
   .bg-dark {
-    background: #333;
-    color: #fff;
+    background: rgb(243, 11, 11);
+    color: rgb(22, 1, 1);
   }
   
   .contact-info{
-    color : #fff;
+    color : rgb(148, 87, 87);
   }
   
   .bg-light {
-    background: #f4f4f4;
-    color: #333;
+    background: #58c41a;
+    color: rgb(231, 19, 19);
   }
   
   .bg-primary {
-    background: #f7c08a;
-    color: #333;
+    background: #e67505;
+    color: rgb(243, 12, 12);
   }
   
   .clr {
@@ -95,13 +96,13 @@
   
   /* Navbar */
   #navbar {
-    background: #333;
-    color: #fff;
+    background: rgb(155, 127, 127);
+    color: rgba(230, 26, 26, 0.466);
     overflow: auto;
   }
   
   #navbar a {
-    color: #fff;
+    color: rgb(241, 19, 19);
   }
   
   #navbar .logo {
@@ -126,8 +127,8 @@
   
   #navbar ul li a:hover, 
   #navbar ul li a.current {
-    background: #444;
-    color: #f7c08a;
+    background: rgb(90, 9, 9);
+    color: #aa5d0f;
   }
   
   
@@ -139,10 +140,12 @@
     width: 33.3%;
     padding: 50px;
     text-align:center;
+    border-radius: 50%;
   }
   
   .box i {
     margin-bottom: 10px;
+    border-radius: 50%;
   }
   
   
@@ -150,6 +153,7 @@
   #container {
     margin: auto;
     flex-wrap: wrap;
+    border-radius: 50%;
   }
   
   /* PokeDeck */
@@ -157,12 +161,13 @@
     margin: auto;
   
     flex-wrap: wrap;
+
   }
   
   .deck {
-    background: #333;
-    border: 1px solid black;
-    border-radius: 5px;
+    background: rgb(235, 9, 9);
+    border: 1px solid rgb(209, 127, 127);
+    border-radius: 10px;
     display: flex;
     max-width: 100%;
     position: relative;
@@ -173,9 +178,9 @@
   .image {
     width: 240px;
     margin: 0.875em 0.5em;
-    border: 1px solid wheat;
-    border-radius: 5px;
-    background-color: whitesmoke;
+    border: 1px solid rgb(236, 158, 11);
+    border-radius: 50%;
+    background-color: rgb(121, 78, 78);
     z-index: 3;
   }
   
@@ -187,9 +192,9 @@
     z-index: 5;
   }
   .cards {
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: #f7c08a;
+    border: 1px solid rgb(199, 139, 139);
+    border-radius: 100px;
+    background-color: #f1800e;
     display: flex;
     text-align: center;
     flex-basis: auto;
@@ -256,8 +261,8 @@
   /* Footer */
   #main-footer {
     text-align: center;
-    background: #444;
-    color: #fff;
+    background: rgba(224, 11, 11, 0.87);
+    color: rgba(207, 105, 105, 0.767);
     padding: 20px;
   }
   
@@ -267,17 +272,17 @@
   }
   @media screen and (max-width: 992px) {
     .image {
-      background-color: blanchedalmond;
+      background-color: rgb(196, 126, 21);
     }
   }
   
   @media screen and (max-width: 568px) {
     .image {
-      background-color: silver;
+      background-color: rgb(224, 165, 165);
     }
   }
   @media screen and (max-width: 320px) {
     .image {
-      background-color: olive;
+      background-color: rgba(206, 206, 31, 0.849);
     }
   }
